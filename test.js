@@ -22,4 +22,22 @@ it('should only take int', function() {
     expect(() => romannumbers.ArabicToRoman()).to.throw("n is not an integer")
 });
 
+it("should convert 1 to roman", function() {
+
+    expect(romannumbers.ArabicToRoman(1)).to.equal("I")
+
+});
+
+it("should convert 10 to roman", function() {
+
+    expect(romannumbers.ArabicToRoman(10)).to.equal("X")
+
+});
+
+it("should convert 11 to roman", function() {
+
+    expect(romannumbers.ArabicToRoman(11)).to.equal("XI")
+
+});
+
 });
