@@ -34,10 +34,29 @@ it("should convert 10 to roman", function() {
 
 });
 
-it("should convert 11 to roman", function() {
+// it("should convert 100 to roman", function() {
 
-    expect(romannumbers.ArabicToRoman(11)).to.equal("XI")
+//     expect(romannumbers.ArabicToRoman(100)).to.equal("C")
 
-});
+// });
+
+// it("should convert 111 to roman", function() {
+
+//     expect(romannumbers.ArabicToRoman(111)).to.equal("CXI")
+
+// });
+
+// it("should convert 101 to roman", function() {
+
+//     expect(romannumbers.ArabicToRoman(111)).to.equal("CI")
+
+// });
+
+// it("should convert 11 to roman", function() {
+
+//     expect(romannumbers.ArabicToRoman(11)).to.equal("XI")
+
+// });
+
 
 });
